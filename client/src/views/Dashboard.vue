@@ -1268,4 +1268,10 @@ export default {
   transform: translateY(-1px);
   box-shadow: 0 2px 4px rgba(100, 116, 139, 0.3);
 }
+
+@media (max-width: 639px) {
+  .kpi-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 </style>

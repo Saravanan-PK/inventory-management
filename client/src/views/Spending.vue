@@ -849,4 +849,13 @@ export default {
 .text-right {
   text-align: right;
 }
+
+@media (max-width: 639px) {
+  .stats-grid-finance {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .two-column-grid {
+    grid-template-columns: 1fr;
+  }
+}
 </style>

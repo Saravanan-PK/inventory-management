@@ -366,4 +366,10 @@ export default {
   text-align: center;
   padding: 0.5rem;
 }
+
+@media (max-width: 639px) {
+  .demand-trend-cards {
+    grid-template-columns: 1fr;
+  }
+}
 </style>

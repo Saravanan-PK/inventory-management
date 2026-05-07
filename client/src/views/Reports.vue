@@ -485,4 +485,10 @@ export default {
   border-radius: 8px;
   margin: 1rem 0;
 }
+
+@media (max-width: 639px) {
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 </style>
